@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LevelTwoActivity"
+    android:background="@color/awe"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="156dp"
+        android:layout_height="118dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/g"/>
+
+    <LinearLayout
+        android:layout_width="343dp"
+        android:layout_height="570dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/view_color">
+
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="Write the following phrase/word in Otjiherero"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="117dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/textview_background"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Home"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/blue"/>
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter answer here"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:background="@drawable/option"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"/>
+
+
+    </LinearLayout>
+</LinearLayout>

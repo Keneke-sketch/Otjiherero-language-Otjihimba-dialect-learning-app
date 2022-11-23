@@ -1,0 +1,527 @@
+<resources>
+    <!-- Base application theme. -->
+
+    <!-- Style for a category of vocabulary words -->
+
+    <!-- Style for list of vocabulary words -->
+    <style name="word_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    //Imageview style
+
+    <style name="rounded_square">
+        <item name="cornerSize">10%</item>
+    </style>
+
+
+    //Accomodation
+    <string name="scor">Current Score: 0/5</string>
+    <string name="questionnumber">1/5 Question</string>
+
+    <string name="question1">Okakarata kongoze</string>
+    <string name="question1A">Sim card</string>
+    <string name="question1B">Mobile phone</string>
+    <string name="question1C">Campsite</string>
+    <string name="question1D">Hotel</string>
+    <string name="answer1">Sim card</string>
+
+
+    <string name="question2">Popezu</string>
+    <string name="question2A">Campsite</string>
+    <string name="question2B">Hotel</string>
+    <string name="question2C">Nearby</string>
+    <string name="question2D">Good</string>
+    <string name="answer2">Nearby</string>
+
+
+    <string name="question3"> Ongoze</string>
+    <string name="question3A"> Campsite</string>
+    <string name="question3B">Mobile phone</string>
+    <string name="question3C">I had a great day</string>
+    <string name="question3D">Nearby</string>
+    <string name="answer3">Mobile phone</string>
+
+    <string name="question4">Ondjatu jandje mejenene okujesa mba?</string>
+    <string name="question4A">Where can I rent a cellphone</string>
+    <string name="question4B">Can I leave my bag here</string>
+    <string name="question4C">Can I do money exchange here</string>
+    <string name="question4D">Where is the nearest campsite</string>
+    <string name="answer4">Can I leave my bag here</string>
+
+    <string name="question5">Mbari nejuva ewa</string>
+    <string name="question5A"> I had a great day</string>
+    <string name="question5B">Where is the nearest campsite</string>
+    <string name="question5C">Where are you</string>
+    <string name="question5D">I am hungry</string>
+    <string name="answer5">I had a great day</string>
+
+    <string name="selctedOption">SelctedOption</string>
+    <string name="correctAnswer">CorrectAnswer</string>
+
+    //Chat
+
+    <string name="ScorE">Current Score: 0/3</string>
+    <string name="QuestionNumber">1/3 Question</string>
+
+    <string name="QuestioN1">Merjanga</string>
+    <string name="QuestioN1A">I am visiting</string>
+    <string name="QuestioN1B">Mobile phone</string>
+    <string name="QuestioN1C">I am new here</string>
+    <string name="QuestioN1D">Do you have children?</string>
+    <string name="ANswer1">I am visiting</string>
+
+
+    <string name="QuestioN2">Mbatondjara</string>
+    <string name="QuestioN2A">Its so hot</string>
+    <string name="QuestioN2B">Hotel</string>
+    <string name="QuestioN2C">I am hungry</string>
+    <string name="QuestioN2D">Good</string>
+    <string name="ANswer2">I am hungry</string>
+
+
+    <string name="QuestioN3"> Unovanatje?</string>
+    <string name="QuestioN3A"> Campsite</string>
+    <string name="QuestioN3B">Do you have children?</string>
+    <string name="QuestioN3C">I had a great day</string>
+    <string name="QuestioN3D">Nearby</string>
+    <string name="ANswer3">Do you have children?</string>
+    <string name="SelctedOptioN">SelctedOption</string>
+    <string name="SorrectAnsweR">CorrectAnswer</string>
+
+    //Color
+
+    <string name="SCORE">Current Score: 0/3</string>
+    <string name="QUESTIONNumber">1/3 Question</string>
+
+    <string name="QUESTION1">otjiblou</string>
+    <string name="QUESTION1A">Blue</string>
+    <string name="QUESTION1B">Green</string>
+    <string name="QUESTION1C">Yellow</string>
+    <string name="QUESTION1D">Pink</string>
+    <string name="ANSWER1">Blue</string>
+
+
+    <string name="QUESTION2">Otjiserandu</string>
+    <string name="QUESTION2A">Green</string>
+    <string name="QUESTION2B">Orange</string>
+    <string name="QUESTION2C">Red</string>
+    <string name="QUESTION2D">Purple</string>
+    <string name="ANSWER2">Red</string>
+
+
+    <string name="QUESTION3"> otjipinke</string>
+    <string name="QUESTION3A"> Brown</string>
+    <string name="QUESTION3B">Yellow</string>
+    <string name="QUESTION3C">Grey</string>
+    <string name="QUESTION3D">Pink</string>
+    <string name="ANSWER3">Pink</string>
+
+
+    <string name="SELECTEDOption">SelctedOption</string>
+    <string name="CORRECTAnswer">CorrectAnswer</string>
+
+    //Date and Time
+
+    <string name="scoRE">Current Score: 0/3</string>
+    <string name="questioNNumber">1/3 Question</string>
+
+    <string name="QUestion1">Omajuva</string>
+    <string name="QUestion1A">Calendar</string>
+    <string name="QUestion1B">Date</string>
+    <string name="QUestion1C">Past</string>
+    <string name="QUestion1D">Month</string>
+    <string name="ANSwer1">Date</string>
+
+
+    <string name="QUestion2">Ombura</string>
+    <string name="QUestion2A">Year</string>
+    <string name="QUestion2B">Sunset</string>
+    <string name="QUestion2C">Sunrise</string>
+    <string name="QUestion2D">Weekend</string>
+    <string name="ANSwer2">Year</string>
+
+
+    <string name="QUestion3">Omweze</string>
+    <string name="QUestion3A">Calendar</string>
+    <string name="QUestion3B">Month</string>
+    <string name="QUestion3C">Sunset</string>
+    <string name="QUestion3D">Sunrise</string>
+    <string name="ANSwer3">Month</string>
+
+    <string name="SelcteDOption">SelctedOption</string>
+    <string name="SorrecTAnswer">CorrectAnswer</string>
+
+    //Days
+    <string name="scORE">Current Score: 0/3</string>
+    <string name="questiONNumber">1/3 Question</string>
+
+    <string name="QuesTION1">Osondaha</string>
+    <string name="QuesTION1A">Monday</string>
+    <string name="QuesTION1B">Sunday</string>
+    <string name="QuesTION1C">Tuesday</string>
+    <string name="QuesTION1D">Wednesday</string>
+    <string name="AnsWER1">Sunday</string>
+
+
+    <string name="QuesTION2">Orovjiungura</string>
+    <string name="QuesTION2A">Monday</string>
+    <string name="QuesTION2B">Tuesday</string>
+    <string name="QuesTION2C">Wednesday</string>
+    <string name="QuesTION2D">Saturday</string>
+    <string name="AnsWER2">Saturday</string>
+
+
+    <string name="QuesTION3"> Oritjetano</string>
+    <string name="QuesTION3A"> Friday</string>
+    <string name="QuesTION3B">Wednesday</string>
+    <string name="QuesTION3C">Monday</string>
+    <string name="QuesTION3D">Thursday</string>
+    <string name="AnsWER3">Friday</string>
+
+
+    <string name="SelctedOption">SelctedOption</string>
+    <string name="SorrectAnswer">CorrectAnswer</string>
+
+    //Direction and places
+    <string name="sCORE">Current Score: 0/3</string>
+    <string name="quESTIONNUMBER">1/3 Question</string>
+
+    <string name="QuESTION1">Outjo</string>
+    <string name="QuESTION1A">Arandis</string>
+    <string name="QuESTION1B">Swakop</string>
+    <string name="QuESTION1C">Kamanjab</string>
+    <string name="QuESTION1D">Outjo</string>
+    <string name="AnSWER1">Outjo</string>
+
+
+    <string name="QuESTION2">Otjomuise</string>
+    <string name="QuESTION2A">Henties</string>
+    <string name="QuESTION2B">Walvis bay</string>
+    <string name="QuESTION2C">Otjiwarongo</string>
+    <string name="QuESTION2D">Windhoek</string>
+    <string name="AnSWER2">Windhoek</string>
+
+
+    <string name="QuESTION3">ezorongondo</string>
+    <string name="QuESTION3A">Walvis</string>
+    <string name="QuESTION3B">Sesfontein</string>
+    <string name="QuESTION3C">Tsumeb</string>
+    <string name="QuESTION3D">Arandis</string>
+    <string name="AnSWER3">Walvis</string>
+
+
+    <string name="SelctEdOption">SelctedOption</string>
+    <string name="CorrectAnswer">CorrectAnswer</string>
+
+    //Family
+    <string name="SCORe">Current Score: 0/3</string>
+    <string name="QuESTIOnNUMBER">1/3 Question</string>
+
+    <string name="quESTIOn1">Ina</string>
+    <string name="quESTIOn1A">Father</string>
+    <string name="quESTIOn1B">Brother</string>
+    <string name="quESTIOn1C">Sister</string>
+    <string name="quESTIOn1D">Mother</string>
+    <string name="anSWeR1">Mother</string>
+
+
+    <string name="quESTIOn2">Omwatje</string>
+    <string name="quESTIOn2A">Child</string>
+    <string name="quESTIOn2B">Cousin</string>
+    <string name="quESTIOn2C">Brother</string>
+    <string name="quESTIOn2D">Hospital</string>
+    <string name="anSWeR2">Child</string>
+
+
+    <string name="quESTIOn3">Ihe</string>
+    <string name="quESTIOn3A">Mother</string>
+    <string name="quESTIOn3B">Brother</string>
+    <string name="quESTIOn3C">Father</string>
+    <string name="quESTIOn3D">Uncle</string>
+    <string name="anSWeR3">Father</string>
+
+
+    <string name="SeLcTEdOption">SelctedOption</string>
+    <string name="CorRrecTAnswer">CorrectAnswer</string>
+
+    //Emergency
+    <string name="SCoRE">Current Score: 0/3</string>
+    <string name="QuESTIONNUMBER">1/3 Question</string>
+
+    <string name="QuESTIOn1">Ndjivatera</string>
+    <string name="QuESTIOn1A">Please</string>
+    <string name="QuESTIOn1B">Help</string>
+    <string name="QuESTIOn1C">Hospital</string>
+    <string name="QuESTIOn1D">Fire</string>
+    <string name="AnSWeR1">Help</string>
+
+
+
+    <string name="QuESTIOn2">Arikana</string>
+    <string name="QuESTIOn2A">Fire</string>
+    <string name="QuESTIOn2B">Hospital</string>
+    <string name="QuESTIOn2C">Tyre repair</string>
+    <string name="QuESTIOn2D">Hospital</string>
+    <string name="AnSWeR2">Please</string>
+
+
+    <string name="QuESTIOn3">ondjatu jovimariva</string>
+    <string name="QuESTIOn3A">Wallet</string>
+    <string name="QuESTIOn3B">Fuel station</string>
+    <string name="QuESTIOn3C">Police station</string>
+    <string name="QuESTIOn3D">Fire</string>
+    <string name="AnSWeR3">Wallet</string>
+
+
+    <string name="SelcTEdOption">SelctedOption</string>
+    <string name="CorrecTAnswer">CorrectAnswer</string>
+
+    //Food
+    <string name="ScoRE">Current Score: 0/3</string>
+    <string name="QueSTIONNUMBER">1/3 Question</string>
+
+    <string name="QueSTIOn1">Onjama</string>
+    <string name="QueSTIOn1A">Banana</string>
+    <string name="QueSTIOn1B">Meat</string>
+    <string name="QueSTIOn1C">Orange</string>
+    <string name="QueSTIOn1D">Apple</string>
+    <string name="AnsWeR1">Meat</string>
+
+
+
+    <string name="QueSTIOn2">Omaihi</string>
+    <string name="QueSTIOn2A">Milk</string>
+    <string name="QueSTIOn2B">Juice</string>
+    <string name="QueSTIOn2C">Apple</string>
+    <string name="QueSTIOn2D">Macoroni</string>
+    <string name="AnsWeR2">Milk</string>
+
+
+    <string name="QueSTIOn3">Omboroto</string>
+    <string name="QueSTIOn3A">Macoroni</string>
+    <string name="QueSTIOn3B">Bread</string>
+    <string name="QueSTIOn3C">Rice</string>
+    <string name="QueSTIOn3D">Porridge</string>
+    <string name="AnsWeR3">Bread</string>
+
+
+    <string name="SelcteDoption">SelctedOption</string>
+    <string name="CorrEcTAnswer">CorrectAnswer</string>
+
+    //Greeting
+    <string name="ScoR">Current Score: 0/5</string>
+    <string name="QueSTIOnNUMBeR">1/5 Question</string>
+
+    <string name="QuestIOn1">Moro</string>
+    <string name="QuestIOn1A">Good morning</string>
+    <string name="QuestIOn1B">Good afternoon</string>
+    <string name="QuestIOn1C">Good evening</string>
+    <string name="QuestIOn1D">Good</string>
+    <string name="AnswER1">Good morning</string>
+
+
+
+    <string name="QuestIOn2">Navi</string>
+    <string name="QuestIOn2A">I am not well</string>
+    <string name="QuestIOn2B">Bad</string>
+    <string name="QuestIOn2C">See you later</string>
+    <string name="QuestIOn2D">Goodbye</string>
+    <string name="Answe2">Bad</string>
+
+
+    <string name="QuestIOn3">Perivi</string>
+    <string name="QuestIOn3A">Bad</string>
+    <string name="QuestIOn3B">Good morning</string>
+    <string name="QuestIOn3C">I am fine and you</string>
+    <string name="QuestIOn3D">How are you</string>
+    <string name="Answe3">How are you</string>
+
+    <string name="QuestIOn4">Hwenda</string>
+    <string name="QuestIOn4A">Good evening</string>
+    <string name="QuestIOn4B">My name is</string>
+    <string name="QuestIOn4C">See you later</string>
+    <string name="QuestIOn4D">Good afternoon</string>
+    <string name="AnswER4">Good evening</string>
+
+    <string name="QuestIOn5">Tupao omeva</string>
+    <string name="QuestIOn5A">Nice to meet you</string>
+    <string name="QuestIOn5B">Meat</string>
+    <string name="QuestIOn5C">Orange</string>
+    <string name="QuestIOn5D">Apple</string>
+    <string name="AnswER5">May I have some water</string>
+
+
+    <string name="SelcTEDopTion">SelctedOption</string>
+    <string name="CorrECTAnSwer">CorrectAnswer</string>
+
+    //Nature
+    <string name="ScoRes">Current Score: 0/3</string>
+    <string name="QueSTIONNUMBeRs">1/3 Question</string>
+
+    <string name="QuesTiOn1">Otjikoyo</string>
+    <string name="QuesTiOn1A">Cave</string>
+    <string name="QuesTiOn1B">Fire</string>
+    <string name="QuesTiOn1C">Footprint</string>
+    <string name="QuesTiOn1D">Mountain</string>
+    <string name="AnsweRs1">Cave</string>
+
+
+
+    <string name="QuesTiOn2">Epupa</string>
+    <string name="QuesTiOn2A">River</string>
+    <string name="QuesTiOn2B">Waterfall</string>
+    <string name="QuesTiOn2C">Tree</string>
+    <string name="QuesTiOn2D">Spring</string>
+    <string name="AnsweRs2">Waterfall</string>
+
+
+    <string name="QuesTiOn3">Otjijao</string>
+    <string name="QuesTiOn3A">Waterfall</string>
+    <string name="QuesTiOn3B">Moutain</string>
+    <string name="QuesTiOn3C">Leaf</string>
+    <string name="QuesTiOn3D">Footprint</string>
+    <string name="AnsweRs3">Leaf</string>
+
+
+    <string name="SelcteDopTions">SelctedOption</string>
+    <string name="CorrEcTAnSwers">CorrectAnswer</string>
+
+    //Number
+    <string name="scoRe">Current Score: 0/3</string>
+    <string name="queSTIONNUMBeR">1/3 Question</string>
+
+    <string name="QuesTIon1">Indatu</string>
+    <string name="QuesTIon1A">Five</string>
+    <string name="QuesTIon1B">Two</string>
+    <string name="QuesTIon1C">Three</string>
+    <string name="QuesTIon1D">One</string>
+    <string name="answeR1">Three</string>
+
+    <string name="QuesTIon2">Imwe</string>
+    <string name="QuesTIon2A">Ten</string>
+    <string name="QuesTIon2B">One</string>
+    <string name="QuesTIon2C">Five</string>
+    <string name="QuesTIon2D">Three</string>
+    <string name="answeR2">One</string>
+
+
+    <string name="QuesTIon3">Ine</string>
+    <string name="QuesTIon3A">Four</string>
+    <string name="QuesTIon3B">Two</string>
+    <string name="QuesTIon3C">Three</string>
+    <string name="QuesTIon3D">One</string>
+    <string name="answeR3">Four</string>
+
+
+    <string name="SelctedopTion">SelctedOption</string>
+    <string name="CorrETAnSwer">CorrectAnswer</string>
+
+    //Season
+    <string name="ScoRess">Current Score: 0/3</string>
+    <string name="QueSTIONNUMBeRss">1/3 Question</string>
+
+    <string name="quesTIOn1">Oruteni</string>
+    <string name="quesTIOn1A">Spring</string>
+    <string name="quesTIOn1B">Summer</string>
+    <string name="quesTIOn1C">Autumn</string>
+    <string name="quesTIOn1D">It is cold</string>
+    <string name="AnsweRss1">Spring</string>
+
+
+
+    <string name="quesTIOn2">Okuni</string>
+    <string name="quesTIOn2A">It is cold</string>
+    <string name="quesTIOn2B">Autumn</string>
+    <string name="quesTIOn2C">It is windy</string>
+    <string name="quesTIOn2D">Summer</string>
+    <string name="AnsweRss2">Autumn</string>
+
+
+    <string name="quesTIOn3">Kunombepera</string>
+    <string name="quesTIOn3A">Summer</string>
+    <string name="quesTIOn3B">It is hot</string>
+    <string name="quesTIOn3C">Autumn</string>
+    <string name="quesTIOn3D">It is cold</string>
+    <string name="AnsweRss3">Bread</string>
+
+
+    <string name="SelcteDOpTion">SelctedOption</string>
+    <string name="CoRrEcTAnSwer">CorrectAnswer</string>
+
+    //Tourist attraction
+    <string name="scOre">Current Score: 0/3</string>
+    <string name="QuestIONNUMBeR">1/3 Question</string>
+
+    <string name="QUesTIOn1">Ohouto</string>
+    <string name="QUesTIOn1A">Culture</string>
+    <string name="QUesTIOn1B">Car</string>
+    <string name="QUesTIOn1C">Stone</string>
+    <string name="QUesTIOn1D">Huts</string>
+    <string name="AnseR1">Car</string>
+
+
+
+    <string name="QUesTIOn2">Ewe</string>
+    <string name="QUesTIOn2A">Stone</string>
+    <string name="QUesTIOn2B">Culture</string>
+    <string name="QUesTIOn2C">Huts</string>
+    <string name="QUesTIOn2D">Stone</string>
+    <string name="AnseR2">Stone</string>
+
+
+    <string name="QUesTIOn3">Omitutu</string>
+    <string name="QUesTIOn3A">Stone</string>
+    <string name="QUesTIOn3B">Huts</string>
+    <string name="QUesTIOn3C">Do I have to pay to get in</string>
+    <string name="QUesTIOn3D">Car</string>
+    <string name="AnseR3">Huts</string>
+
+
+    <string name="SelcteDopTio">SelctedOption</string>
+    <string name="CorrEcTAnSwe">CorrectAnswer</string>
+
+    //Wildlife
+    <string name="ScoRe">Current Score: 0/3</string>
+    <string name="QueSTIONNUMBeR">1/3 Question</string>
+
+    <string name="QuesTIOn1">Ombwa</string>
+    <string name="QuesTIOn1A">Cheetah</string>
+    <string name="QuesTIOn1B">Rhino</string>
+    <string name="QuesTIOn1C">Dog</string>
+    <string name="QuesTIOn1D">Oryx</string>
+    <string name="Answer1">Dog</string>
+
+
+
+    <string name="QuesTIOn2">Ongejama</string>
+    <string name="QuesTIOn2A">Lion</string>
+    <string name="QuesTIOn2B">Giraffe</string>
+    <string name="QuesTIOn2C">Springbok</string>
+    <string name="QuesTIOn2D">Elephant</string>
+    <string name="AnsweR2">Lion</string>
+
+
+    <string name="QuesTIOn3">Ohorongo</string>
+    <string name="QuesTIOn3A">Elephant</string>
+    <string name="QuesTIOn3B">Oryx</string>
+    <string name="QuesTIOn3C">Cheetah</string>
+    <string name="QuesTIOn3D">Kudu</string>
+    <string name="AnsweR3">Kudu</string>
+
+
+    <string name="SelcteDopTion">SelctedOption</string>
+    <string name="CorrEcTAnSwer">CorrectAnswer</string>
+    <string name="question1_B" />
+    <string name="correctanswer" />
+    <string name="selctedoption" />
+    <string name="question_1" />
+    <string name="question1_A" />
+    <string name="question1_C" />
+    <string name="question1_D" />
+
+
+</resources>

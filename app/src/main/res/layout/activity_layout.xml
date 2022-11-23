@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="8dp">
+        <ImageView
+            android:id="@+id/text_icon"
+            android:layout_width="45dp"
+            android:layout_height="47dp"
+            android:src="@drawable/remove"
+            tools:ignore="ContentDescription"/>
+
+
+
+
+<LinearLayout
+    android:id="@+id/word_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:layout_toRightOf="@id/text_icon"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:textAppearance="?android:textAppearanceMedium">
+
+    <TextView
+        android:id="@+id/text_english"
+        style="@style/word_style"
+        tools:text="English"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:fontFamily="sans-serif-condensed-light"
+        android:id="@+id/text_otjihimba"
+        style="@style/word_style"
+        android:textStyle="bold"
+        tools:text="Otjihimba" />
+
+</LinearLayout>
+
+<ImageView
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+    android:layout_marginRight="16dp"
+    android:src="@drawable/image" />
+
+</RelativeLayout>

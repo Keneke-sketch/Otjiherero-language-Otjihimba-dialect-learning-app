@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- Background color for the animals category -->
+
+    //Quiz
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="grey">#96B3B2</color>
+    <color name="blue">#030437</color>
+    <color name="black">#030303</color>
+    <color name="awe">#286a6c</color>
+    <color name="mustard">#f79700</color>
+    <color name="green">#014421</color>
+    <color name="lightgreen">#d0ed0e</color>
+    <color name="lightpink">#ffb1d6</color>
+    <color name="greensomething">#057063</color>
+
+    green #014421
+    lightgreen #d0ed0e
+    light pink #ffc1cc #ffb1d6
+
+    mustard #f79700
+
+
+</resources>

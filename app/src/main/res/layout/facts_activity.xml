@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blue">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/blue">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c2"
+            app:cardElevation="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            app:cardCornerRadius="10dp"
+            android:background="@color/lightpink">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="@color/greensomething">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/mustard"
+                    android:fontFamily="@font/almodobar"
+                    android:gravity="center"
+                    android:text="About"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:text="This mobile application helps users to learn the basic of Otjihimba dialect. Specifically vocabulary, phrases and common expressions."
+                    android:textAlignment="center"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:textStyle="bold"
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c3"
+            app:cardElevation="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="@color/grey">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="147dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/mustard"
+                    android:fontFamily="@font/almodobar"
+                    android:gravity="center"
+                    android:text="Kaokoland"
+                    android:textSize="20dp" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="301dp"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/kaokoland" />
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="301dp"
+                   android:layout_height="140dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/ama" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:text="Kaokoland is a vast and empty wilderness occupying the north-western quarter of Namibia, is roughly divided in two by the Hoanib River. It’s harsh, remote, unpopulated and makes for some of Namibia’s finest scenic landscapes."
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:fontFamily="sans-serif-condensed-light"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:text="This isolated rugged region is home to the nomadic Himba pastoralists who have remained unchanged for many generations. The attraction of Kaokoland lies in its wild and uncharted valleys and mountains"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:fontFamily="sans-serif-condensed-light"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/mustard"
+                    android:fontFamily="@font/almodobar"
+                    android:gravity="center"
+                    android:text="The himba people"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="129dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/h" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="136dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/pic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="The Himba people - traditional pastoralists who rely on their hardy cattle and goats for survival - have fascinating traditional garb that, until recently involved a daily coating of goat fat and red mud ostensibly as protection from the fierce heat of the sun. Their cultures, lifestyle and dress have been well documented and they live side by side with the wildlife in the region much like the proud Maasai people of Masai Mara in Kenya."
+                    android:textAlignment="center"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:textSize="20dp"
+                    android:layout_marginTop="10dp"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    :textSize="20dp"
+                    android:layout_width="144dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/mustard"
+                    android:fontFamily="@font/almodobar"
+                    android:gravity="center"
+                    android:text="Culture and Tourism"
+                    android:textSize="20dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="136dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/two" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="136dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/aga" />
+
+                        <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text=" Himbas are remarkably famous for covering themselves with otjize paste, a cosmetic mixture of butterfat and ochre pigment, to cleanse the skin over long periods due to water scarcity and protect themselves from the extremely hot and dry climate of the Kaokoland as well as against mosquito insect bites. Otjize is considered foremost a highly desirable aesthetic beauty cosmetic, symbolizing earth's rich red color and blood the essence of life, and is consistent with the Himba ideal of beauty."
+                                    android:textAlignment="center"
+                                    android:fontFamily="sans-serif-condensed-light"
+                                    android:textSize="20dp"
+                            android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Kaokoland is home to beautiful waterfalls at Epupa and Ruacana along the Kunene River. The Ruacana Falls count amongst the largest found in Africa and the Epupa Falls are probably one of the most beautiful. This alone could justify visiting the Kaokoland. Further inland, the Kaokoland is home to a variety flora and fauna despite the harsh environment found here. Scattered across the valleys and dry riverbeds are desert elephants which can sometimes walk up to 200 km to find water. Both they and black rhinos are free roaming and can be tracked and viewed in various parts of the region, as can the elusive desert lions. Easier and more frequent wildlife sightings found here are zebra, springbok, oryx and giraffe. "
+                    android:textAlignment="center"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:textSize="20dp"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
